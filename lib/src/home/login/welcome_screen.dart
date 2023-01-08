@@ -71,11 +71,7 @@ class WelcomeScreen extends StatelessWidget {
             offset: const Offset(0, 2),
           ),
         ]),
-        child: RaisedButton(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
-          ),
-          color: color,
+        child: ElevatedButton(
           onPressed: onPressed,
           child: Text(
             text,

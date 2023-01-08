@@ -14,7 +14,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "duolingo",
-      theme: ThemeData(primaryColor: Colors.white),
+      theme: ThemeData(
+          primaryColor: Colors.white,
+          elevatedButtonTheme: ElevatedButtonThemeData(
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.green,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8.0)),
+                  textStyle: TextStyle(fontSize: 20.0)))),
       home: WelcomeScreen(),
     );
   }

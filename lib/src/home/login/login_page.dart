@@ -91,8 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                       margin: const EdgeInsets.all(16),
                       height: 60,
                       width: constraints.maxWidth,
-                      child: RaisedButton(
-                        color: Colors.grey.shade100,
+                      child: ElevatedButton(
                         onPressed: _onClickGoogle,
                         child: const Text("Sign in with Google"),
                       )),
