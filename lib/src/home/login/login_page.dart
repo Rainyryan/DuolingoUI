@@ -18,13 +18,13 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     Future _onClickGoogle() async {
-      // final FirebaseService service = FirebaseService();
-      // ApiResponse response = await service.loginGoogle();
-
-      // if (response.ok) {
-      await Navigator.push(
-          context, MaterialPageRoute(builder: (context) => Home()));
-      // }
+      final FirebaseService service = FirebaseService();
+      ApiResponse response = await service.loginGoogle();
+      
+      if (response.ok!) {
+        await Navigator.push(
+            context, MaterialPageRoute(builder: (context) => Home()));
+      }
     }
 
     return Scaffold(

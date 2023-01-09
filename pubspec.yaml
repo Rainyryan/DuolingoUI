@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -29,15 +29,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
   #Firebase
-  # firebase_auth: ^0.16.1
-  # firebase_core: ^0.4.5
-  google_sign_in: ^5.2.1
+  firebase_auth:
+  firebase_core:
+  google_sign_in:
   provider: ^6.0.1
   shared_preferences: ^2.0.11
   http: ^0.13.4
-  
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.4
@@ -45,56 +45,53 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lint: ^1.0.0
+  lint: ^2.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-    # To add assets to your application, add an assets section, like this:
+  # To add assets to your application, add an assets section, like this:
   assets:
-  - assets/images/appBar/crown_stroke.png
-  - assets/images/appBar/flag.png
-  - assets/images/appBar/navbar_diamont.png
-  - assets/images/appBar/navbar_fire.png
+    - assets/images/appBar/crown_stroke.png
+    - assets/images/appBar/flag.png
+    - assets/images/appBar/navbar_diamont.png
+    - assets/images/appBar/navbar_fire.png
 
-  #welcome
-  - assets/images/logo-with-duo.png
-  #social
-  - assets/images/social/facebook.png
-  - assets/images/social/google.png
-  #home_screen
-  - assets/images/home_screen/lesson_egg.png
-  - assets/images/home_screen/lesson_airplane.png
-  - assets/images/home_screen/store_item_8.png
-  - assets/images/home_screen/lesson_hamburger.png
-  - assets/images/home_screen/lesson_baby.png
-  - assets/images/home_screen/lesson_dialog.png
-  - assets/images/home_screen/lesson_divisor_castle.png
-  #floating_action_button
-  - assets/images/floating_action_button/tab_training_selected.png
-  - assets/images/floating_action_button/tab_training.png
-  #bottom_navigation_bar
-  - assets/images/bottom_navigation_bar/tab_lessons_selected.png
-  - assets/images/bottom_navigation_bar/tab_lessons.png
-  - assets/images/bottom_navigation_bar/tab_profile_selected.png
-  - assets/images/bottom_navigation_bar/tab_profile.png
-  - assets/images/bottom_navigation_bar/tab_ranking_selected.png
-  - assets/images/bottom_navigation_bar/tab_ranking.png
-  - assets/images/bottom_navigation_bar/tab_store_selected.png
-  - assets/images/bottom_navigation_bar/tab_store.png
-  - assets/images/bottom_navigation_bar/tab_stories_selected.png
-  - assets/images/bottom_navigation_bar/tab_stories.png
-  
-  
+    #welcome
+    - assets/images/logo-with-duo.png
+    #social
+    - assets/images/social/facebook.png
+    - assets/images/social/google.png
+    #home_screen
+    - assets/images/home_screen/lesson_egg.png
+    - assets/images/home_screen/lesson_airplane.png
+    - assets/images/home_screen/store_item_8.png
+    - assets/images/home_screen/lesson_hamburger.png
+    - assets/images/home_screen/lesson_baby.png
+    - assets/images/home_screen/lesson_dialog.png
+    - assets/images/home_screen/lesson_divisor_castle.png
+    #floating_action_button
+    - assets/images/floating_action_button/tab_training_selected.png
+    - assets/images/floating_action_button/tab_training.png
+    #bottom_navigation_bar
+    - assets/images/bottom_navigation_bar/tab_lessons_selected.png
+    - assets/images/bottom_navigation_bar/tab_lessons.png
+    - assets/images/bottom_navigation_bar/tab_profile_selected.png
+    - assets/images/bottom_navigation_bar/tab_profile.png
+    - assets/images/bottom_navigation_bar/tab_ranking_selected.png
+    - assets/images/bottom_navigation_bar/tab_ranking.png
+    - assets/images/bottom_navigation_bar/tab_store_selected.png
+    - assets/images/bottom_navigation_bar/tab_store.png
+    - assets/images/bottom_navigation_bar/tab_stories_selected.png
+    - assets/images/bottom_navigation_bar/tab_stories.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
